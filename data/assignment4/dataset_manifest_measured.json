@@ -1,0 +1,167 @@
+{
+  "csv_sha256": "76d8453d2d173bbd68b40d7d86014026f4ffac84c96ea31d57cffbff4a5a9aad",
+  "total": 6000,
+  "unique_texts": 6000,
+  "split_hashes": {
+    "1/train": "6cdbb5d6413a0b1e8d36983885e27d83df7f4ee968bce00c74a924efa4248398",
+    "1/validation": "2e684a542755033b401b8c1eaef9d9891e184de7a65881733f32a4b0cb30ad77",
+    "1/test": "6072cfccbcb4513a6b5dff27f2ae489da45dcc1ececcf0973970ff677e63c25a",
+    "2/train": "e491bf8caa5e78f14f65b2147633427fc0b062757d9ddb81cc8af39e65f2843d",
+    "2/validation": "58eae0c232e0ed525aa0eab0ccad799c4f90baa0e37a5a820442e5192d2d5c6b",
+    "2/test": "7eddb1b8f172ae5729c7d665533d046f3663235f837c68ac8b4a7a78a99df64e",
+    "3/train": "3b01ef3830c797fc2d3232b97a4b0470543c21a582434b48c35e89016f8a50a2",
+    "3/validation": "577103c3708afe20fdf9f98920eb347aef569f4ab63b9f850a81037d2c022454",
+    "3/test": "66d9ae6e22b4cf3f8747c0127d44f67af312010b64e8192ba469b708dbb7c999"
+  },
+  "class_counts": {
+    "1/test": [
+      206,
+      177,
+      194,
+      223
+    ],
+    "1/train": [
+      256,
+      250,
+      253,
+      241
+    ],
+    "1/validation": [
+      50,
+      51,
+      45,
+      54
+    ],
+    "2/test": [
+      394,
+      406
+    ],
+    "2/train": [
+      442,
+      558
+    ],
+    "2/validation": [
+      87,
+      113
+    ],
+    "3/test": [
+      240,
+      285,
+      64,
+      89,
+      94,
+      28
+    ],
+    "3/train": [
+      301,
+      345,
+      67,
+      120,
+      135,
+      32
+    ],
+    "3/validation": [
+      51,
+      80,
+      17,
+      23,
+      19,
+      10
+    ]
+  },
+  "matches_repository_manifest": {
+    "tried": [
+      {
+        "kind": "RandomState",
+        "scope": "global",
+        "order": "test_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "RandomState",
+        "scope": "global",
+        "order": "train_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "RandomState",
+        "scope": "per_task",
+        "order": "test_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "RandomState",
+        "scope": "per_task",
+        "order": "train_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "default_rng",
+        "scope": "global",
+        "order": "test_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "default_rng",
+        "scope": "global",
+        "order": "train_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "default_rng",
+        "scope": "per_task",
+        "order": "test_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "default_rng",
+        "scope": "per_task",
+        "order": "train_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "random",
+        "scope": "global",
+        "order": "test_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "random",
+        "scope": "global",
+        "order": "train_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "random",
+        "scope": "per_task",
+        "order": "test_first",
+        "complete": true,
+        "class_counts_match": false
+      },
+      {
+        "kind": "random",
+        "scope": "per_task",
+        "order": "train_first",
+        "complete": true,
+        "class_counts_match": false
+      }
+    ],
+    "selected": [
+      "RandomState",
+      "global",
+      "test_first"
+    ],
+    "class_counts_match": false,
+    "split_hash_match": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "model_name": "Qwen/Qwen2.5-0.5B",
+  "tasks": [
+    "ag_news",
+    "sst2",
+    "emotion"
+  ],
+  "n_train": 1000,
+  "n_val": 200,
+  "n_test": 800,
+  "data_seed": 1234,
+  "max_text_tokens": 96,
+  "max_len": 160,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "lr": 0.0002,
+  "epochs": 2,
+  "batch_size": 16,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.0,
+  "grad_clip": 1.0,
+  "eval_batch_size": 64,
+  "replay_fraction": 0.1,
+  "sensitivity_fractions": [
+    0.05,
+    0.2
+  ],
+  "sensitivity_seed": 0,
+  "ewc_fisher_samples": 200,
+  "ewc_lambda_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "calibration_seed": 1000,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "bootstrap_resamples": 10000,
+  "stats_seed": 2026,
+  "results_dir": "/content/drive/MyDrive/rmt_a4_real",
+  "selected_lambda": 0.01
+}

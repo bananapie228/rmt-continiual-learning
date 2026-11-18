@@ -1,0 +1,119 @@
+[
+  {
+    "task": "ag_news",
+    "split": "train",
+    "n": 1000,
+    "class_counts": {
+      "World": 256,
+      "Sci/Tech": 241,
+      "Sports": 250,
+      "Business": 253
+    },
+    "mean_tokens": 75.3,
+    "max_tokens": 121
+  },
+  {
+    "task": "ag_news",
+    "split": "validation",
+    "n": 200,
+    "class_counts": {
+      "Sci/Tech": 54,
+      "World": 50,
+      "Sports": 51,
+      "Business": 45
+    },
+    "mean_tokens": 74.4,
+    "max_tokens": 122
+  },
+  {
+    "task": "ag_news",
+    "split": "test",
+    "n": 800,
+    "class_counts": {
+      "Sci/Tech": 223,
+      "Business": 194,
+      "World": 206,
+      "Sports": 177
+    },
+    "mean_tokens": 73.8,
+    "max_tokens": 121
+  },
+  {
+    "task": "sst2",
+    "split": "train",
+    "n": 1000,
+    "class_counts": {
+      "Positive": 558,
+      "Negative": 442
+    },
+    "mean_tokens": 30.6,
+    "max_tokens": 73
+  },
+  {
+    "task": "sst2",
+    "split": "validation",
+    "n": 200,
+    "class_counts": {
+      "Negative": 87,
+      "Positive": 113
+    },
+    "mean_tokens": 30.8,
+    "max_tokens": 63
+  },
+  {
+    "task": "sst2",
+    "split": "test",
+    "n": 800,
+    "class_counts": {
+      "Positive": 406,
+      "Negative": 394
+    },
+    "mean_tokens": 41.6,
+    "max_tokens": 77
+  },
+  {
+    "task": "emotion",
+    "split": "train",
+    "n": 1000,
+    "class_counts": {
+      "Anger": 120,
+      "Sadness": 301,
+      "Joy": 345,
+      "Fear": 135,
+      "Love": 67,
+      "Surprise": 32
+    },
+    "mean_tokens": 50.2,
+    "max_tokens": 89
+  },
+  {
+    "task": "emotion",
+    "split": "validation",
+    "n": 200,
+    "class_counts": {
+      "Anger": 23,
+      "Sadness": 51,
+      "Joy": 80,
+      "Fear": 19,
+      "Surprise": 10,
+      "Love": 17
+    },
+    "mean_tokens": 51.0,
+    "max_tokens": 86
+  },
+  {
+    "task": "emotion",
+    "split": "test",
+    "n": 800,
+    "class_counts": {
+      "Sadness": 240,
+      "Love": 64,
+      "Joy": 285,
+      "Surprise": 28,
+      "Fear": 94,
+      "Anger": 89
+    },
+    "mean_tokens": 51.0,
+    "max_tokens": 90
+  }
+]

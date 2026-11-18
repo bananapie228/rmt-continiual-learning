@@ -1,0 +1,21 @@
+{
+  "finished_utc": "2026-11-17T14:12:45Z",
+  "measured_model_runs": true,
+  "n_runs": 19,
+  "env": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "peft": "0.21.3",
+    "numpy": "2.4.6",
+    "device": "cuda",
+    "cuda": "13.0",
+    "gpu": "Tesla T4",
+    "gpu_mem_GB": 15.64,
+    "smoke_test": false,
+    "started_utc": "2026-11-17T12:54:30Z",
+    "datasets": "5.2.0"
+  },
+  "selected_lambda": 0.01
+}
