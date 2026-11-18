@@ -1,6 +1,6 @@
 # Continual LoRA Fine-Tuning: Replay vs Regularisation
 
-**Research Methods and Tools — Assignment 4 (SE-2418)**
+**Research Methods and Tools — (SE-2418)**
 Mirzanov Temirlan · Turemuratov Galymzhan · Abdikul Bakdaulet
 
 **Research question.** How do replay-based and regularization-based continual fine-tuning approaches compare with standard sequential LoRA fine-tuning in mitigating catastrophic forgetting in open-source language models under limited computational resources?
